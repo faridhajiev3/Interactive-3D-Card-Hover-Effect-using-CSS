@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0c29;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    perspective: 1000px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+}
+
+.content {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
